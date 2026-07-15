@@ -135,11 +135,6 @@ clean_df['ma20'] = clean_df.groupby('Symbol')['Close'].rolling(20).mean().reset_
 clean_df['expanding_mean'] = clean_df.groupby('Symbol')['Return'].expanding(2).mean().reset_index(level=0, drop=True)
 ```
 
-## Suggested filename
-Save this content as `pandas_learning.md`.
-
----
-
 ## Additional Useful Functions
 
 ### merge / join  
