@@ -1,4 +1,3 @@
----
 # Pandas Grouping, Window & Apply — Quick Reference
 
 ## Summary
